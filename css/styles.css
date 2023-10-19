@@ -2,8 +2,20 @@ body{
   background-color: #333333ea;
 }
 
+h1{
+  color:antiquewhite;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
 header, .alert{
   z-index: 100;
+}
+
+.productos, h2{
+  color:rgb(212, 205, 196);
+  font-size: 2em;
 }
 
 h5{
@@ -54,3 +66,48 @@ h5{
 .hide, .remove{
   display: none;
 }
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #ebe8e8;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #198754;
+  color: #fff;
+  border: none
+}
+
+.formulario{
+  ine-height: 2;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  color: #686363;
+}
+
+.formulario fieldset {
+  border: none;
+  padding: 1.8rem 1rem;
+  border-bottom: 3px solid #e6b5a9; }
+
+  .subtitulo-pal{
+  font-size: 1rem;
+  color: #fff;
+}
+
